@@ -1,5 +1,10 @@
 # Dogmatic Slumbers
 
+A rewrite of Mark Pilgrim's [Kant Generator](http://www.diveintopython.net/xml_processing/),
+updated for modern times.
+
+## Background
+
 When I was in college we had a great deal of fun with the Kant Generator, a program that does
 exactly what it says on the box: Generate streams of pseudo-Immanuel Kant, possibly to be cut
 and pasted verbatim into long surreal emails to campus lists. (But I digress.) It was written
