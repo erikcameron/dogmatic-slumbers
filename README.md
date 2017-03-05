@@ -1,11 +1,4 @@
----
-title: Functional Kant
-key: a817fe859ccae72e92960e8808d8c4f7
-date: 2017-03-02 15:40:38
-layout: post
-tags: cfg grammar context free kant ruby javascript xml json
-categories: 
----
+# Dogmatic Slumbers
 
 When I was in college we had a great deal of fun with the Kant Generator, a program that does
 exactly what it says on the box: Generate streams of pseudo-Immanuel Kant, possibly to be cut
@@ -56,9 +49,9 @@ Ambien hole.
 
 A context-free grammar, using the terminology given [here](https://www.cs.rochester.edu/~nelson/courses/csc_173/grammars/cfg.html), is composed of:
 - "Terminal symbols," those that should be reproduced in the output as is;
-- "Nonterminal symbols," which are expanded to terminal symbols, or other nonterminals, via
-- "Productions," the rules that explain how those expansions work, and
-- a "Start symbol", which is just whatever nonterminal symbol at which expansion begins. (Here this
+- "nonterminal symbols," which are expanded to terminal symbols, or other nonterminals, via
+- "productions," the rules that explain how those expansions work, and
+- a "start symbol", which is just whatever nonterminal symbol at which expansion begins. (Here this
 a "section," but you can begin expanding on any nonterminal symbol.)  
 
 The start symbol is expanded. If the expansion contains any nonterminals, those too are expanded.
@@ -217,7 +210,7 @@ necessary, and these days should probably be avoided when possible. The
 source and grammar to an output string, where the content of the function
 is (basically) the production rules. So we'll start there.
 
-One good rule of thumb for writineg in a "functional" style is to restrict
+One good rule of thumb for writing in a "functional" style is to restrict
 yourself to local variables and return values; i.e., to eschew "instance
 variables," "attributes," "properties," or whatever your language
 calls a piece of state like that, that are scoped to an object. That
@@ -310,7 +303,7 @@ call to `expand` returns, that array is joined and returned as output.
 
 The original also combined the expansion methods in the same class as the
 grammar parsing. For 
-(SRP reasons)[https://en.wikipedia.org/wiki/Single_responsibility_principle] 
+[SRP reasons](https://en.wikipedia.org/wiki/Single_responsibility_principle) 
 we separate them. `Grammar` is a Ruby class and a JS prototype; instances
 wrap a single grammar, and provide two methods, `source` to provide a
 start symbol, and `category_index`, to expose the mapping from category
