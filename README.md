@@ -45,7 +45,7 @@ state is their enemy, and [functional thinking is their friend](https://www.fpco
 
 The eventual decision was to do simultaneous Ruby and Javascript versions,
 to see how well the relevant stuff mapped onto each other, and use JSON
-for the grammar.  The name of the rewrite is "Dogmatic Slumbers" is in honor of [Kant's
+for the grammar.  The name is in honor of [Kant's
 awakening](https://plato.stanford.edu/entries/kant-hume-causality/#KanAnsHum),
 and because the output sounds like the man himself on his way down an
 Ambien hole.
