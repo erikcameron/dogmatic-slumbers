@@ -1,0 +1,4761 @@
+{
+  "type": "grammar",
+  "children": [
+    {
+      "type": "category",
+      "id": "money.object",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "new clothes"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "a really good book"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "drugs"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "comic books"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "booze for a party I'm throwing this weekend"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "new computer hardware"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "a stuffed animal"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "a cute little pewter castle with crystals on the towers"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "sexy underwear"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "a bread machine"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "car repairs"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "a digital watch"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "a new pet hamster"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "a new toaster"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "shampoo"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "things for my new baby"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "legal fees"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "my divorce"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "this month's rent"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "food",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "choice",
+                  "children": [
+                    {
+                      "type": "box",
+                      "children": [
+                        "for the baby"
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "children": [
+                        "for the next ",
+                        {
+                          "type": "choice",
+                          "children": [
+                            {
+                              "type": "box",
+                              "children": [
+                                "week"
+                              ]
+                            },
+                            {
+                              "type": "box",
+                              "children": [
+                                "few days"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "plastic surgery"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "thank.you.paragraph",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "box",
+              "class": "sentence",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "money.thanks",
+                  "children": [
+
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "box",
+              "class": "sentence",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "gift.thanks",
+                  "children": [
+
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "closing",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "closing.line",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "male.name",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "female.name",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "gift.used",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "I'm planning to take it to the shooting range the next time I go."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "I'm sure I will put it to good use."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Everyone I konw is envious."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "It looks lovely in my ",
+            {
+              "type": "substitution",
+              "id": "room",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "I've made it the central focus of my ",
+            {
+              "type": "substitution",
+              "id": "room",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "My ",
+            {
+              "type": "substitution",
+              "id": "room",
+              "children": [
+
+              ]
+            },
+            " looked empty without it."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "money.thanks",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "money.received",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "money.spent",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "money.saved",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "money.tag.line",
+              "children": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "male.name",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "Bob"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Jim"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "John"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Fred"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Elmer"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Charlie"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Lester"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "David"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Mark"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Andrew"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Pete"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Bill"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "William"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "James"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Richard"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Scott"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Nathan"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Matt"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Jeff"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Archie"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Tom"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Harry"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Vinnie"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Michael"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Dan"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Ray"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Roy"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Todd"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Chad"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Jeremy"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Jason"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Kurt"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Keith"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Ken"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Tim"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Randall"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Eric"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Stuart"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Roger"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Alex"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Joel"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Don"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Ron"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Arnold"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Frank"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Ted"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Gary"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Josh"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Warren"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Nick"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Ben"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Calvin"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Martin"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Jake"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Ed"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "gift.thanks",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "gift.received",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "gift.used",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "gift.tag.line",
+              "children": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "money.amount",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "$5"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "$10"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "$15"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "$20"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "$25"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "$30"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "$35"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "$40"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "$45"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "$50"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "$75"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "$100"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "female.name",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "Mary"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Emily"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Anne"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Kathy"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Natalie"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Ellen"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Joan"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Jean"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Jill"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Rachel"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Kendra"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Sabina"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Sheila"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Jessica"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Andrea"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Megan"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Alison"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Robin"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Lynn"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Joy"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Wendy"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Kristin"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Donna"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Kim"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Jen"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Beth"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Lisa"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Angie"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Sarah"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Peggy"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Becky"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Laura"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Nicole"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Melanie"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Miriam"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Alicia"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Sylvia"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Clara"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Julie"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Rhoda"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Rhonda"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Greta"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Amelia"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Emma"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Courtney"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Ashley"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Stephanie"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Vicky"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Lois"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Thelma"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Ruth"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Elizabeth"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Sandy"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Stella"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Carolyn"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Maria"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Marjorie"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Edith"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Teresa"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Linda"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Sue"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Rose"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "April"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Frances"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Dora"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "room",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "living room"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "bathroom"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "basement"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "bedroom"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "closet"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "kitchen"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "garage"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "attic"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "dining room"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "hallway"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "guest room"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "sewing room"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "office"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "billiard parlor"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "junk drawer"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "backyard"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "doghouse"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "person",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "male",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "female",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "female",
+              "children": [
+
+              ]
+            },
+            " and ",
+            {
+              "type": "substitution",
+              "id": "male",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "male",
+              "children": [
+
+              ]
+            },
+            " and ",
+            {
+              "type": "substitution",
+              "id": "female",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "male.name",
+              "children": [
+
+              ]
+            },
+            " and ",
+            {
+              "type": "substitution",
+              "id": "male.name",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "female.name",
+              "children": [
+
+              ]
+            },
+            " and ",
+            {
+              "type": "substitution",
+              "id": "female.name",
+              "children": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "magazine",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "Maxim"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "The New Yorker"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Time"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Newsweek"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Guns and Ammo"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Esquire"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "GQ"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Cosmopolitan"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "The American Spectator"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "The Nation"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Mother Jones"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Field and Stream"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Reader's Digest"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "The Journal of the American Chemical Society"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Mind"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Discover"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Games"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "MacWorld"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "New Republic"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Wired"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "female",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "Grandma",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "female.name",
+                  "children": [
+
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Mom"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Aunt ",
+            {
+              "type": "substitution",
+              "id": "female.name",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "sister"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "female.name",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "female.name",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "female.name",
+              "children": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "male",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "Grandpa",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "male.name",
+                  "children": [
+
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Dad"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Uncle ",
+            {
+              "type": "substitution",
+              "id": "male.name",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "brother"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "male.name",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "male.name",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "male.name",
+              "children": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "state",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "dead"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in prison"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in a labor camp in Siberia"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in the hospital"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "reported missing last month"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "broke"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "destitute"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in the witness relocation program"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "money.saved",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "I've already ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "put"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "stashed"
+                  ]
+                }
+              ]
+            },
+            " it in ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "the bank"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "a shoebox"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " to save for ",
+                {
+                  "type": "substitution",
+                  "id": "money.object",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "I'd love to spend it, but "
+              ]
+            },
+            "I'm saving it to buy ",
+            {
+              "type": "substitution",
+              "id": "money.object",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "It's nice to have some \"fun money\" to spend, but "
+              ]
+            },
+            "I've decided to save it for ",
+            {
+              "type": "substitution",
+              "id": "money.object",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "I'd love to spend it",
+                {
+                  "type": "box",
+                  "chance": "50",
+                  "children": [
+                    {
+                      "type": "choice",
+                      "children": [
+                        {
+                          "type": "box",
+                          "children": [
+                            "immediately"
+                          ]
+                        },
+                        {
+                          "type": "box",
+                          "children": [
+                            "right away"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                ", but "
+              ]
+            },
+            "I need to save up for ",
+            {
+              "type": "substitution",
+              "id": "money.object",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "greeting",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "Dear ",
+            {
+              "type": "substitution",
+              "id": "person",
+              "children": [
+
+              ]
+            },
+            ","
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "money.tag.line",
+      "children": [
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "It's not much by today's standards, but every little bit helps!"
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "It was either that or give it to the poor."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "tag.line",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "tag.line",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "tag.line",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "tag.line",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "tag.line",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "tag.line",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "tag.line",
+              "children": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "money.received",
+      "children": [
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "This is "
+              ]
+            },
+            "just a brief note to ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "say ",
+                    {
+                      "type": "choice",
+                      "children": [
+                        {
+                          "type": "box",
+                          "children": [
+                            "thanks"
+                          ]
+                        },
+                        {
+                          "type": "box",
+                          "children": [
+                            "\"thank you\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "thank you"
+                  ]
+                }
+              ]
+            },
+            " for the ",
+            {
+              "type": "substitution",
+              "id": "money.amount",
+              "children": [
+
+              ]
+            },
+            " ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "you sent"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "I received from you"
+                  ]
+                }
+              ]
+            },
+            " for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "Of all the ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "presents"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "gifts"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "things"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "stuff"
+                  ]
+                }
+              ]
+            },
+            " I ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "received"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "got"
+                  ]
+                }
+              ]
+            },
+            " for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            ", I ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "liked"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "loved"
+                  ]
+                }
+              ]
+            },
+            " your ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "gift of "
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "money.amount",
+              "children": [
+
+              ]
+            },
+            " ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "the most"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "more than anything else"
+                  ]
+                }
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "I ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "really "
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "appreciate"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "enjoyed receiving"
+                  ]
+                }
+              ]
+            },
+            " the ",
+            {
+              "type": "substitution",
+              "id": "money.amount",
+              "children": [
+
+              ]
+            },
+            " you ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "gave"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "sent"
+                  ]
+                }
+              ]
+            },
+            " me for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "I ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "really "
+              ]
+            },
+            "love ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "getting"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "receiving"
+                  ]
+                }
+              ]
+            },
+            " money for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            ", ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "since"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "because"
+                  ]
+                }
+              ]
+            },
+            " ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "that"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "it"
+                  ]
+                }
+              ]
+            },
+            " means I can ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "always "
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "go out and "
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "spend it on"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "use it for"
+                  ]
+                }
+              ]
+            },
+            " what I really ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "want"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "need"
+                  ]
+                }
+              ]
+            },
+            ".  ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "Thanks"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "Thank you"
+                  ]
+                }
+              ]
+            },
+            " for the ",
+            {
+              "type": "substitution",
+              "id": "money.amount",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "You can't imagine how surprised I was to discover that you had sent me ",
+            {
+              "type": "substitution",
+              "id": "money.amount",
+              "children": [
+
+              ]
+            },
+            " for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "Thanks"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "Thank you"
+                  ]
+                }
+              ]
+            },
+            " for the ",
+            {
+              "type": "substitution",
+              "id": "money.amount",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    ".  I"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "; i"
+                  ]
+                }
+              ]
+            },
+            "t was ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "the perfect"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "a great"
+                  ]
+                }
+              ]
+            },
+            " ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "present"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "gift"
+                  ]
+                }
+              ]
+            },
+            " for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "I don't know how to thank you ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "choice",
+                  "children": [
+                    {
+                      "type": "box",
+                      "children": [
+                        "properly"
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "children": [
+                        "enough"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "for the ",
+            {
+              "type": "substitution",
+              "id": "money.amount",
+              "children": [
+
+              ]
+            },
+            " you ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "sent"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "gave"
+                  ]
+                }
+              ]
+            },
+            " ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "me "
+              ]
+            },
+            "for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "I'm ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "just "
+              ]
+            },
+            "writing to say ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "thanks"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "\"thank you\""
+                  ]
+                }
+              ]
+            },
+            " for the ",
+            {
+              "type": "substitution",
+              "id": "money.amount",
+              "children": [
+
+              ]
+            },
+            " you ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "graciously "
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "gave"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "sent"
+                  ]
+                }
+              ]
+            },
+            " me for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "Thank you"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "Thanks"
+                  ]
+                }
+              ]
+            },
+            " for the ",
+            {
+              "type": "substitution",
+              "id": "money.amount",
+              "children": [
+
+              ]
+            },
+            " you ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "bestowed upon"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "sent"
+                  ]
+                }
+              ]
+            },
+            " me for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "This is "
+              ]
+            },
+            "just a quick note to ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "say \"thank you\""
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "thank you"
+                  ]
+                }
+              ]
+            },
+            " for the ",
+            {
+              "type": "substitution",
+              "id": "money.amount",
+              "children": [
+
+              ]
+            },
+            " ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "I ",
+                    {
+                      "type": "choice",
+                      "children": [
+                        {
+                          "type": "box",
+                          "children": [
+                            "got"
+                          ]
+                        },
+                        {
+                          "type": "box",
+                          "children": [
+                            "received"
+                          ]
+                        }
+                      ]
+                    },
+                    " from you"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "you sent",
+                    {
+                      "type": "box",
+                      "chance": "50",
+                      "children": [
+                        " me"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            " for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "gift.received",
+      "children": [
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "This is "
+              ]
+            },
+            "just a brief note to ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "say ",
+                    {
+                      "type": "choice",
+                      "children": [
+                        {
+                          "type": "box",
+                          "children": [
+                            "thanks"
+                          ]
+                        },
+                        {
+                          "type": "box",
+                          "children": [
+                            "\"thank you\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "thank you"
+                  ]
+                }
+              ]
+            },
+            " for the ",
+            {
+              "type": "substitution",
+              "id": "gift.object",
+              "children": [
+
+              ]
+            },
+            " ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "you sent"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "I received from you"
+                  ]
+                }
+              ]
+            },
+            " for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "Of all the ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "presents"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "gifts"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "things"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "stuff"
+                  ]
+                }
+              ]
+            },
+            " I ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "received"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "got"
+                  ]
+                }
+              ]
+            },
+            " for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            ", I ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "liked"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "loved"
+                  ]
+                }
+              ]
+            },
+            " your ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "gift of "
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "gift.object",
+              "children": [
+
+              ]
+            },
+            " ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "the most"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "more than anything else"
+                  ]
+                }
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "I ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "really "
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "appreciate"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "enjoyed receiving"
+                  ]
+                }
+              ]
+            },
+            " the ",
+            {
+              "type": "substitution",
+              "id": "gift.object",
+              "children": [
+
+              ]
+            },
+            " you ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "gave"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "sent"
+                  ]
+                }
+              ]
+            },
+            " me for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "I ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "really "
+              ]
+            },
+            "love ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "getting"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "receiving"
+                  ]
+                }
+              ]
+            },
+            " money for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            ", ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "since"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "because"
+                  ]
+                }
+              ]
+            },
+            " ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "that"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "it"
+                  ]
+                }
+              ]
+            },
+            " means I can ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "always "
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "go out and "
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "spend it on"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "use it for"
+                  ]
+                }
+              ]
+            },
+            " what I really ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "want"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "need"
+                  ]
+                }
+              ]
+            },
+            ".  ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "Thanks"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "Thank you"
+                  ]
+                }
+              ]
+            },
+            " for the ",
+            {
+              "type": "substitution",
+              "id": "gift.object",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "You can't imagine how surprised I was to discover that you had sent me ",
+            {
+              "type": "substitution",
+              "id": "gift.object",
+              "children": [
+
+              ]
+            },
+            " for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "Thanks"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "Thank you"
+                  ]
+                }
+              ]
+            },
+            " for the ",
+            {
+              "type": "substitution",
+              "id": "gift.object",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    ".  I"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "; i"
+                  ]
+                }
+              ]
+            },
+            "t was ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "the perfect"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "a great"
+                  ]
+                }
+              ]
+            },
+            " ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "present"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "gift"
+                  ]
+                }
+              ]
+            },
+            " for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "I don't know how to thank you ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "choice",
+                  "children": [
+                    {
+                      "type": "box",
+                      "children": [
+                        "properly"
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "children": [
+                        "enough"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "for the ",
+            {
+              "type": "substitution",
+              "id": "gift.object",
+              "children": [
+
+              ]
+            },
+            " you ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "sent"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "gave"
+                  ]
+                }
+              ]
+            },
+            " ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "me "
+              ]
+            },
+            "for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "I'm ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "just "
+              ]
+            },
+            "writing to say ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "thanks"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "\"thank you\""
+                  ]
+                }
+              ]
+            },
+            " for the ",
+            {
+              "type": "substitution",
+              "id": "gift.object",
+              "children": [
+
+              ]
+            },
+            " you ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "graciously "
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "gave"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "sent"
+                  ]
+                }
+              ]
+            },
+            " me for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "Thank you"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "Thanks"
+                  ]
+                }
+              ]
+            },
+            " for the ",
+            {
+              "type": "substitution",
+              "id": "gift.object",
+              "children": [
+
+              ]
+            },
+            " you ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "bestowed upon"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "sent"
+                  ]
+                }
+              ]
+            },
+            " me for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "This is "
+              ]
+            },
+            "just a quick note to ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "say \"thank you\""
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "thank you"
+                  ]
+                }
+              ]
+            },
+            " for the ",
+            {
+              "type": "substitution",
+              "id": "gift.object",
+              "children": [
+
+              ]
+            },
+            " ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "I ",
+                    {
+                      "type": "choice",
+                      "children": [
+                        {
+                          "type": "box",
+                          "children": [
+                            "got"
+                          ]
+                        },
+                        {
+                          "type": "box",
+                          "children": [
+                            "received"
+                          ]
+                        }
+                      ]
+                    },
+                    " from you"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "you sent",
+                    {
+                      "type": "box",
+                      "chance": "50",
+                      "children": [
+                        " me"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            " for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "occasion",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "Christmas"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Valentine's Day"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "my birthday"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Easter"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "New Year's"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Hanukkah"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "our wedding"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "our divorce"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "my half-birthday"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "my confirmation"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "my Bar Mitzvah"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "my debutante ball"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "my coming-out party"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "our first baby"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "my bachelor party"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "my bridal shower"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "our housewarming party"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "gift.tag.line",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "tag.line",
+              "children": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "tag.line",
+      "children": [
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "I know how much of a sacrifice this sort of gift is for you."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "male.name",
+              "children": [
+
+              ]
+            },
+            " and ",
+            {
+              "type": "substitution",
+              "id": "female.name",
+              "children": [
+
+              ]
+            },
+            " tried to steal it from me, but I was too quick for them."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "I'm "
+              ]
+            },
+            "looking forward to getting your next gift for ",
+            {
+              "type": "substitution",
+              "id": "occasion",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "Frankly, "
+              ]
+            },
+            "it was ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "a little "
+              ]
+            },
+            "strange to get anything from you",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " at all"
+              ]
+            },
+            ", because ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "I thought"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "my friends to me that"
+                  ]
+                }
+              ]
+            },
+            " you were ",
+            {
+              "type": "substitution",
+              "id": "state",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "How thoughtful of you."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "Give my love to ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "male.name",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "female.name",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "Best wishes to you",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " and ",
+                {
+                  "type": "substitution",
+                  "id": "person",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "closing.line",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "Sincerely"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Love",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " always"
+              ]
+            },
+            ","
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Thank you",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " again"
+              ]
+            },
+            ","
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "See you soon,"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Hugs and kisses,"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "From,"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Thanks",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " again"
+              ]
+            },
+            ","
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Peace,"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Faithfully,"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "thank.you.note",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "greeting",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "thank.you.paragraph",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "closing",
+              "children": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "money.spent",
+      "children": [
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "You'll be happy to know that "
+              ]
+            },
+            "I've already spent it on ",
+            {
+              "type": "substitution",
+              "id": "money.object",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "It",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "'s"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    " has"
+                  ]
+                }
+              ]
+            },
+            " ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "already "
+              ]
+            },
+            "been well-spent on ",
+            {
+              "type": "substitution",
+              "id": "money.object",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "My ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "mother"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "father"
+                  ]
+                }
+              ]
+            },
+            " insisted that I spend it on ",
+            {
+              "type": "substitution",
+              "id": "money.object",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "Now I ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " finally"
+              ]
+            },
+            "have enough money for ",
+            {
+              "type": "substitution",
+              "id": "money.object",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "choice",
+                  "children": [
+                    {
+                      "type": "box",
+                      "children": [
+                        "As soon as I can, "
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "children": [
+                        "When I get a chance, "
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "I'm going ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "to the mall "
+              ]
+            },
+            "and spending it on ",
+            {
+              "type": "substitution",
+              "id": "money.object",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "To be honest, "
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "I tried to get it to the bank"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "I wanted to save it"
+                  ]
+                }
+              ]
+            },
+            ", but I ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "realized I "
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "needed"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "had"
+                  ]
+                }
+              ]
+            },
+            " to spend it on ",
+            {
+              "type": "substitution",
+              "id": "money.object",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " instead"
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "I just wanted to let you know that "
+              ]
+            },
+            "it's already gone towards ",
+            {
+              "type": "substitution",
+              "id": "money.object",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            "I ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "choice",
+                  "children": [
+                    {
+                      "type": "box",
+                      "children": [
+                        "immediately"
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "children": [
+                        "rushed right out and"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "spent it on ",
+            {
+              "type": "substitution",
+              "id": "money.object",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " for the first time",
+                {
+                  "type": "box",
+                  "chance": "50",
+                  "children": [
+                    " in years"
+                  ]
+                }
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "As soon as I finish writing this letter, "
+              ]
+            },
+            "I'm going to put it towards ",
+            {
+              "type": "substitution",
+              "id": "money.object",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "I have to admit that "
+              ]
+            },
+            "I already spent it on this month's protection."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "gift.object",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "toaster"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "blender"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "pajamas"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "wallet"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "umbrella"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "shampoo"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "mouthwash"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "beer"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "disk drive"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "mousepad"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "stereo"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "compact disc"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "dart board"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "bread machine"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "moustache comb"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "fruitcake"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "towel rack"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "bong"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "jigsaw puzzle"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Star Trek \"Picard\" doll"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "stuffed animal"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "beanbag chair"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "box of chocolates"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "microwave oven"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "snowblower"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "jacket"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "sweatshirt"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "tie"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "laundry detergent"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "fake tree"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "makeup kit"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "miniature pool table"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "carton of cigarettes"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "basketball"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "fake vomit"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "book"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "subscription to ",
+            {
+              "type": "substitution",
+              "id": "magazine",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "\"Critique of Pure Reason\""
+          ]
+        }
+      ]
+    }
+  ]
+}

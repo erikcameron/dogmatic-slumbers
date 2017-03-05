@@ -1,0 +1,11 @@
+{
+  "name": "dogmatic-slumbers",
+  "version": "1.0.0",
+  "description": "Dogmatic Slumbers: An updated version of the Kant Generator from Mark Pilgrim's Dive into Python (http://www.diveintopython.net/index.html)",
+  "main": "core.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

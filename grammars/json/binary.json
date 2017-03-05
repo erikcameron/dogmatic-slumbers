@@ -1,0 +1,90 @@
+{
+  "type": "grammar",
+  "children": [
+    {
+      "type": "category",
+      "id": "bit",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "0"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "byte",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "bit",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "bit",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "bit",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "bit",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "bit",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "bit",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "bit",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "bit",
+              "children": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

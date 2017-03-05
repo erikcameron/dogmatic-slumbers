@@ -1,0 +1,132 @@
+{
+  "type": "grammar",
+  "children": [
+    {
+      "type": "category",
+      "id": "a",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "b",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "1"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "c",
+      "children": [
+        {
+          "type": "box",
+          "chance": "100",
+          "children": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "d",
+      "children": [
+        {
+          "type": "box",
+          "chance": "0",
+          "children": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "e",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "a",
+              "children": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "f",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "b",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "a",
+              "children": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "g",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2503 @@
+{
+  "type": "grammar",
+  "children": [
+    {
+      "type": "category",
+      "id": "Ns",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "the phenomenon"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "an object"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the cogitatum",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " (qua cogitatum)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "transcendental "
+              ]
+            },
+            "phenomenology"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "pure",
+                    {
+                      "type": "box",
+                      "chance": "50",
+                      "children": [
+                        " and genuine"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "scientific"
+                  ]
+                }
+              ]
+            },
+            " evidence"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "cognition"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the ego cogito"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "transcendental subjectivity"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the transcendental-phenomenological reduction"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "phenomenological "
+              ]
+            },
+            "epoche"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the Objective world"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "a transcendental grounding of ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "philosophy"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the stream of ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "what is itself given"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the repeatable act of grounding",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " of ",
+                {
+                  "type": "substitution",
+                  "id": "Np",
+                  "children": [
+
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "an infinite horizon of approximations"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the ",
+            {
+              "type": "substitution",
+              "id": "ego.type",
+              "children": [
+
+              ]
+            },
+            " Ego"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the fundamental form of this universal synthesis"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "all-embracing "
+              ]
+            },
+            "consciousness of internal time"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "immanent time"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the task of clarifying ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the whole of conscious life"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "Np",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "noetic acts"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "cogitationes"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "noematic descriptions"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "separated "
+              ]
+            },
+            "modes of consciousness"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "multiplicities of ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "experiences"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "Vst",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "denotes a universal primal phenomenon of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "is only a modality of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "becomes modalized also in correlation with"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "stands in contrast to the accidental being \"for me\" of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "is a clarification of the striving for"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "becomes adjusted to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "Vpt",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "exist for us thanks to"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "denote the universal primary phenomena of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "are only modalities of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "become modalized also in correlation with"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "stand in contrast to",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " the accident being \"for me\" of"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "become adjusted to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "Vsi",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "inhibits acceptance of ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            " as existent"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "is actual"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "does not yet produce for us any abiding being"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "is \"in itself\""
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "is an infinite idea, related to infinities of harmoniously combinable ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "is an agreement of ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            " with the judged ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "can be seen as full proof that, in spite of the continual experiencedness of ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            },
+            ", a non-being of ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            " is conceivable"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "needs to be criticized with regard to its validity and range, before it can be used for the purposes of a radical grounding of ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "is precisely what makes critical decisions about ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            },
+            " at all possible"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "is unified synthetically"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "synthetically constitutes all particular ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            },
+            " that ever become prominent"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "Vpi",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "inhibit ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "choice",
+                  "children": [
+                    {
+                      "type": "box",
+                      "children": [
+                        "my"
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "children": [
+                        "our"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "acceptance of ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            " as existent"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "do not yet produce for ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "us"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "me"
+                  ]
+                }
+              ]
+            },
+            " any abiding being",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " apart from their relation to ",
+                {
+                  "type": "choice",
+                  "children": [
+                    {
+                      "type": "box",
+                      "children": [
+                        {
+                          "type": "substitution",
+                          "id": "Ns",
+                          "children": [
+
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "children": [
+                        {
+                          "type": "substitution",
+                          "id": "Np",
+                          "children": [
+
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "are \"in themselves\""
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "are infinite ideas, related to infinities of harmoniously combinable ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " and ",
+                {
+                  "type": "substitution",
+                  "id": "Np",
+                  "children": [
+
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "can be seen as ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "full "
+              ]
+            },
+            "proof that, in spite of the continual experiencedness of ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            ", a non-being of ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            " is ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "conceivable"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "possible"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "need to be criticized with regard to their validity and range, before they can be used for ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "the purposes of "
+              ]
+            },
+            "a radical grounding of ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "are precisely what make critical decisions about ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            " at all possible"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "are unified synthetically"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "synthetically constitute all particular instances of ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            " that ever become prominent"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "intro.clause",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "in the natural attitude"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "de facto"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "owing to the instability and ambiguity of ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "by immersing ourselves in such a striving"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in other words"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "by this preliminary work, here roughly indicated rather than done explicitly"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "where this is still wanting"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "since the form belonging to a systematic order of ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            " is part of this idea"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in the broadest sense"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "as we have said"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in the attitude established by transcendental reduction"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in a maximally broad sense"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "if we maintain this attitude"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in the broadest Cartesian sense"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "certainty.clause",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "it is plain that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "by immersing ourselves meditatively in the general intentions of ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            ", we discover that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "if we follow up this doubt, it becomes manifest that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "by virtue of my free epoche with respect to the being of the experienced world, the momentous fact is that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "yet it must not be overlooked that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the fact is that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "we can be sure that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "hence it follows without more ado that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    },
+                    " calls"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    },
+                    " call"
+                  ]
+                }
+              ]
+            },
+            " our attention to the fact that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "we see in advance that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the fact is evident",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                ", even apodictically evident,"
+              ]
+            },
+            " that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "it becomes evident that"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "throwaway.clause",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "in an extremely broad sense"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "consequently"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in respect of this evidence"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "however"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "mediately"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "naturally"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "even with respect to the evidence in which ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    },
+                    " presents itself"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    },
+                    " present themselves"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "as a matter of essential necessity"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "perchance"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "when we let our thoughts hasten in this manner"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "how.clause",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "by conscious conversion into the corresponding ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "by virture of a synthesis in which what is meant coincides and agree with ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "by a freely actualizable return to ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "by reconciling with ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "by orienting ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            " according to accured insights"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "by the fundamental nature of ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "main.clause",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                ", ",
+                {
+                  "type": "substitution",
+                  "id": "throwaway.clause",
+                  "children": [
+
+                  ]
+                },
+                ","
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "Vst",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "; ",
+                {
+                  "type": "substitution",
+                  "id": "subject.clause",
+                  "children": [
+
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " (",
+                {
+                  "type": "substitution",
+                  "id": "intro.clause",
+                  "children": [
+
+                  ]
+                },
+                ")"
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "Vsi",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "how.clause",
+                  "children": [
+
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                ", ",
+                {
+                  "type": "substitution",
+                  "id": "throwaway.clause",
+                  "children": [
+
+                  ]
+                },
+                ","
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "Vpt",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                ", ",
+                {
+                  "type": "substitution",
+                  "id": "how.clause",
+                  "children": [
+
+                  ]
+                },
+                ","
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " (",
+                {
+                  "type": "substitution",
+                  "id": "intro.clause",
+                  "children": [
+
+                  ]
+                },
+                ")"
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "Vpi",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                ", ",
+                {
+                  "type": "substitution",
+                  "id": "how.clause",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "; ",
+                {
+                  "type": "substitution",
+                  "id": "subject.clause",
+                  "children": [
+
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "ego.type",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "reflecting"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "phenomenological"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "transcendental"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "worldly"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "subject.clause",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "I"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "we"
+                  ]
+                }
+              ]
+            },
+            " now shift the weight of transcendental evidence of ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            " ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "(",
+                {
+                  "type": "substitution",
+                  "id": "intro.clause",
+                  "children": [
+
+                  ]
+                },
+                ") "
+              ]
+            },
+            "from the ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "ego.type",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            "ego to ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "we must not let ourselves be frightened by considerations of ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            " and ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "only in reflection do we \"direct\" ourselves to ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            " and to its perceptual directedness to ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "we have not simply lost ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            " for phenomenology; we retain it",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                ", ",
+                {
+                  "type": "substitution",
+                  "id": "throwaway.clause",
+                  "children": [
+
+                  ]
+                },
+                ","
+              ]
+            },
+            " ",
+            {
+              "type": "substitution",
+              "id": "how.clause",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "I have the reflection that ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            " is given continuously as an objective unity in a multi-form and changeable multiplicity of ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            },
+            ", which belong determinately to it"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "I",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                ", the meditating phenomenologist,"
+              ]
+            },
+            " set myself the all-embracing task of uncovering ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "myself"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "choice",
+                      "children": [
+                        {
+                          "type": "box",
+                          "children": [
+                            {
+                              "type": "substitution",
+                              "id": "Ns",
+                              "children": [
+
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "box",
+                          "children": [
+                            {
+                              "type": "substitution",
+                              "id": "Np",
+                              "children": [
+
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            " ",
+            {
+              "type": "substitution",
+              "id": "how.clause",
+              "children": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "sentence",
+      "children": [
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "certainty.clause",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "main.clause",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "certainty.clause",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "main.clause",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "certainty.clause",
+                  "children": [
+
+                  ]
+                },
+                {
+                  "type": "box",
+                  "chance": "50",
+                  "children": [
+                    ", ",
+                    {
+                      "type": "substitution",
+                      "id": "how.clause",
+                      "children": [
+
+                      ]
+                    },
+                    ","
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "subject.clause",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "paragraph",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "section",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "paragraph",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "paragraph",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "paragraph",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "paragraph",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "paragraph",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "paragraph",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "paragraph",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "paragraph",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "paragraph",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "paragraph",
+                  "children": [
+
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3576 @@
+{
+  "type": "grammar",
+  "children": [
+    {
+      "type": "category",
+      "id": "conjunction",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "and"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "but"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "yet"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "quantity",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "all of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "some of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "none of"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "logic.type",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "general"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "applied"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "pure"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "transcendental"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "formal"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "rule.type",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "universal"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "necessary"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "practical"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "contradictory"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "sufficient"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "judgement.type",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "hypothetical"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "problematic"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "analytic"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "synthetic"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "ampliative"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "inductive"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "speculative"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "disjunctive"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "knowledge.type",
+              "children": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "knowledge.type",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "a priori"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "a posteriori"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "reason.type",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "pure"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "practical"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "human"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "natural"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "object.type",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "intelligible"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "transcendental"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "empirical"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "philosopher",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "Aristotle"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Hume"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Galileo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "Ns",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "the transcendental aesthetic"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "logic.type",
+              "children": [
+
+              ]
+            },
+            " logic"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the Ideal of ",
+            {
+              "type": "substitution",
+              "id": "reason.type",
+              "children": [
+
+              ]
+            },
+            " reason"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the architectonic of ",
+            {
+              "type": "substitution",
+              "id": "reason.type",
+              "children": [
+
+              ]
+            },
+            " reason"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the discipline of ",
+            {
+              "type": "substitution",
+              "id": "reason.type",
+              "children": [
+
+              ]
+            },
+            " reason"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "choice",
+                  "children": [
+                    {
+                      "type": "box",
+                      "children": [
+                        "pure"
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "children": [
+                        "practical"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "employment of ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the Ideal"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the manifold"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the Transcendental Deduction"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "our experience"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "philosophy"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "metaphysics"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the thing in itself"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "our understanding"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "our ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "knowledge.type",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            "knowledge"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "reason.type",
+              "children": [
+
+              ]
+            },
+            " reason"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "space"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "time"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the transcendental unity of apperception"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "necessity"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the never-ending regress in the series of empirical conditions"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "Np",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "the Antinomies"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the paralogisms",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " of ",
+                {
+                  "type": "substitution",
+                  "id": "reason.type",
+                  "children": [
+
+                  ]
+                },
+                " reason"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the Categories"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "our sense perceptions"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "our faculties"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "our ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "judgement.type",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            "judgements"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the objects in space and time"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the things in themselves"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "natural causes"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "our ideas"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "our ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "knowledge.type",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            "concepts"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "object.type",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            "objects in space and time"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the noumena"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the phenomena"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "Vst",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "is what first gives rise to"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "can thereby determine in its totality"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "has lying before it"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "constitutes the whole content for"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "may not contradict itself, but it is still possible that it may be in contradictions with"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "would thereby be made to contradict"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "teaches us nothing whatsoever regarding the content of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "can not take account of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "has nothing to do with"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "stands in need of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "is the key to understanding"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "proves the validity of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "is just as necessary as"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "is the clue to the discovery of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "is a representation of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "depends on"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "excludes the possibility of"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "Vsi",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "is the mere result of the power of ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            ", a blind but indispensable function of the soul"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "occupies part of the sphere of ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            " concerning the existence of ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            },
+            " in general"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "is by its very nature contradictory"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "would be falsified"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "abstracts from all content of ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "knowledge.type",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            "knowledge"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "is a body of demonstrated science, and ",
+            {
+              "type": "substitution",
+              "id": "quantity",
+              "children": [
+
+              ]
+            },
+            " it must be known ",
+            {
+              "type": "substitution",
+              "id": "knowledge.type",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "can never furnish a true and demonstrated science, because, like ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            ", it ",
+            {
+              "type": "substitution",
+              "id": "Vst",
+              "children": [
+
+              ]
+            },
+            " ",
+            {
+              "type": "substitution",
+              "id": "judgement.type",
+              "children": [
+
+              ]
+            },
+            " principles"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "can be treated like ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "exists in ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "Vpt",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "are what first give rise to"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "have lying before them"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "constitute the whole content of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "would thereby be made to contradict"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "can not take account of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "have nothing to do with"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "stand in need to"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "are the clue to the discovery of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "prove the validity of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "are just as necessary as"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "are a representation of"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "exclude the possibility of"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "Vpi",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "are the mere results of the power of ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            ", a blind but indispensable function of the soul"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "occupy part of the sphere of ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            " concerning the existence of ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            },
+            " in general"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "are by their very nature contradictory"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "would be falsified"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "abstract from all content of ",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "knowledge.type",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            "knowledge"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "constitute a body of demonstrated doctrine, and ",
+            {
+              "type": "substitution",
+              "id": "quantity",
+              "children": [
+
+              ]
+            },
+            " this body must be known ",
+            {
+              "type": "substitution",
+              "id": "knowledge.type",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "can never, as a whole, furnish a true and demonstrated science, because, like ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            ", they ",
+            {
+              "type": "substitution",
+              "id": "Vpt",
+              "children": [
+
+              ]
+            },
+            " ",
+            {
+              "type": "substitution",
+              "id": "judgement.type",
+              "children": [
+
+              ]
+            },
+            " principles"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "can be treated like ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "should only be used as a canon for ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "exist in ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "intro.clause",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "in all theoretical sciences"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in view of these considerations"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "thus"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "by means of ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in the study of ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "therefore"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "with the sole exception of ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "certainly"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "still"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "as I have elsewhere shown"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "on the other hand"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "for these reasons"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in the case of ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "however"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in natural theology"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "consequently"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "certainty.clause",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "it must not be supposed that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "there can be no doubt that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "we can deduce that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "it is not at all certain that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "philosopher",
+              "children": [
+
+              ]
+            },
+            " tells us that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "it remains a mystery why"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "I assert",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                ", ",
+                {
+                  "type": "substitution",
+                  "id": "intro.clause",
+                  "children": [
+
+                  ]
+                },
+                ","
+              ]
+            },
+            " that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "to avoid all misapprehension, it is necessary to explain that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "let us suppose that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "it is obvious that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "the reader should be careful to observe that"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "what we have alone been able to show is that"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "proof",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "because of our necessary ignorance of the conditions"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "as is shown in the writings of ",
+            {
+              "type": "substitution",
+              "id": "philosopher",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "as is proven in the ontological manuals"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "as any dedicated reader can clearly see"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "as is evident upon close examination"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "as will easily be shown in the next section"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "since knowledge of ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            },
+            " is ",
+            {
+              "type": "substitution",
+              "id": "knowledge.type",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "by virtue of ",
+            {
+              "type": "substitution",
+              "id": "reason.type",
+              "children": [
+
+              ]
+            },
+            " reason"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "as we have already seen"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "since ",
+            {
+              "type": "substitution",
+              "id": "quantity",
+              "children": [
+
+              ]
+            },
+            " ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            },
+            " are ",
+            {
+              "type": "substitution",
+              "id": "judgement.type",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "because of the relation between ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            " and ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "by means of analysis"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "by means of analytic unity"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "throwaway.clause",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "in so far as this expounds the ",
+            {
+              "type": "substitution",
+              "id": "rule.type",
+              "children": [
+
+              ]
+            },
+            " rules of ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "when thus treated as ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in other words"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in the full sense of these terms"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "insomuch as ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            " relies on ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "indeed"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "then"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "that is to say"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "even as this relates to ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in respect of the intelligible character"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "so regarded"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "for example"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "irrespective of all empirical conditions"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "so far as regards ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                " and ",
+                {
+                  "type": "substitution",
+                  "id": "Np",
+                  "children": [
+
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "on the contrary"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in accordance with the principles of ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in reference to ends"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "in particular"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "so far as I know"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "main.clause",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "choice",
+                  "children": [
+                    {
+                      "type": "box",
+                      "children": [
+                        " (and ",
+                        {
+                          "type": "substitution",
+                          "id": "certainty.clause",
+                          "children": [
+
+                          ]
+                        },
+                        " this is true)"
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "children": [
+                        ", ",
+                        {
+                          "type": "substitution",
+                          "id": "throwaway.clause",
+                          "children": [
+
+                          ]
+                        },
+                        ","
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "Vst",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "Vst",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                ", ",
+                {
+                  "type": "choice",
+                  "children": [
+                    {
+                      "type": "box",
+                      "children": [
+                        {
+                          "type": "substitution",
+                          "id": "throwaway.clause",
+                          "children": [
+
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "children": [
+                        {
+                          "type": "substitution",
+                          "id": "intro.clause",
+                          "children": [
+
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                ","
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                ", ",
+                {
+                  "type": "choice",
+                  "children": [
+                    {
+                      "type": "box",
+                      "children": [
+                        {
+                          "type": "substitution",
+                          "id": "throwaway.clause",
+                          "children": [
+
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "children": [
+                        {
+                          "type": "substitution",
+                          "id": "intro.clause",
+                          "children": [
+
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                ","
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "Vsi",
+              "children": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "choice",
+                  "children": [
+                    {
+                      "type": "box",
+                      "children": [
+                        " (and ",
+                        {
+                          "type": "substitution",
+                          "id": "certainty.clause",
+                          "children": [
+
+                          ]
+                        },
+                        " this is the case)"
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "children": [
+                        ", ",
+                        {
+                          "type": "substitution",
+                          "id": "intro.clause",
+                          "children": [
+
+                          ]
+                        },
+                        ","
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "Vpt",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "Vpt",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                ", ",
+                {
+                  "type": "choice",
+                  "children": [
+                    {
+                      "type": "box",
+                      "children": [
+                        {
+                          "type": "substitution",
+                          "id": "throwaway.clause",
+                          "children": [
+
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "children": [
+                        {
+                          "type": "substitution",
+                          "id": "intro.clause",
+                          "children": [
+
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                ","
+              ]
+            },
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                ", ",
+                {
+                  "type": "choice",
+                  "children": [
+                    {
+                      "type": "box",
+                      "children": [
+                        {
+                          "type": "substitution",
+                          "id": "throwaway.clause",
+                          "children": [
+
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "children": [
+                        {
+                          "type": "substitution",
+                          "id": "intro.clause",
+                          "children": [
+
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                ","
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "Vpi",
+              "children": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "sentence",
+      "children": [
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "intro.clause",
+                  "children": [
+
+                  ]
+                },
+                ", "
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "certainty.clause",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "main.clause",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                ", ",
+                {
+                  "type": "substitution",
+                  "id": "proof",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "proof",
+                  "children": [
+
+                  ]
+                },
+                ", "
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "certainty.clause",
+                  "children": [
+
+                  ]
+                },
+                ", ",
+                {
+                  "type": "substitution",
+                  "id": "throwaway.clause",
+                  "children": [
+
+                  ]
+                },
+                ", "
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "main.clause",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                ", ",
+                {
+                  "type": "substitution",
+                  "id": "conjunction",
+                  "children": [
+
+                  ]
+                },
+                " ",
+                {
+                  "type": "substitution",
+                  "id": "main.clause",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "proof",
+                  "children": [
+
+                  ]
+                },
+                ", "
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "certainty.clause",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "main.clause",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "; ",
+                {
+                  "type": "substitution",
+                  "id": "intro.clause",
+                  "children": [
+
+                  ]
+                },
+                ", ",
+                {
+                  "type": "substitution",
+                  "id": "main.clause",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "question",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "Whence comes ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            ", the solution of which involves the relation between ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            " and ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "?"
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "intro.clause",
+                  "children": [
+
+                  ]
+                },
+                ", "
+              ]
+            },
+            "is it ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "true"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "the case"
+                  ]
+                }
+              ]
+            },
+            " that ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            " ",
+            {
+              "type": "substitution",
+              "id": "Vst",
+              "children": [
+
+              ]
+            },
+            " ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            ", or is the real question whether ",
+            {
+              "type": "substitution",
+              "id": "Np",
+              "children": [
+
+              ]
+            },
+            " ",
+            {
+              "type": "substitution",
+              "id": "Vpi",
+              "children": [
+
+              ]
+            },
+            "?"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Has it ever been suggested that",
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                ", ",
+                {
+                  "type": "substitution",
+                  "id": "proof",
+                  "children": [
+
+                  ]
+                },
+                ","
+              ]
+            },
+            " ",
+            {
+              "type": "substitution",
+              "id": "certainty.clause",
+              "children": [
+
+              ]
+            },
+            " there is ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    "no relation"
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    "a causal connection"
+                  ]
+                }
+              ]
+            },
+            " bewteen ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            " and ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "?"
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "In which of our cognitive faculties are ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            " and ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            " connected together?"
+          ]
+        },
+        {
+          "type": "box",
+          "class": "sentence",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "conjunction",
+              "children": [
+
+              ]
+            },
+            " can I entertain ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            " in thought, or does it present itself to me?"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "throwaway.sentence",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            "But we have fallen short of the necessary interconnection that we have in mind when we speak of ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "We thus have a pure synthesis of apprehension."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "And similarly with all the others."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "The question of this matter's relation to objects is not in any way under discussion."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "This distinction must have some ground in the nature of ",
+            {
+              "type": "choice",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Ns",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "substitution",
+                      "id": "Np",
+                      "children": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "The divisions are thus provided; all that is required is to fill them."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "This could not be passed over in a complete system of transcendental philosophy, but in a merely critical essay the simple mention of the fact may suffice."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "This is not something we are in a position to establish."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "This is the sense in which it is to be understood in this work."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "But this need not worry us."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "Let us apply this to ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "But to this matter no answer is possible."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "But the proof of this is a task from which we can here be absolved."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "But at present we shall turn our attention to ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "This may be clear with an example."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "I feel I have sufficiently shown this to be true."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "This is what chiefly concerns us."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "On this matter, what has been said already should in any case suffice by itself."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "In my present remarks I am referring to ",
+            {
+              "type": "substitution",
+              "id": "Ns",
+              "children": [
+
+              ]
+            },
+            " only in so far as it is founded on ",
+            {
+              "type": "substitution",
+              "id": "judgement.type",
+              "children": [
+
+              ]
+            },
+            " principles."
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            "But this is to be dismissed as random groping."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "paragraph",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "question",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "throwaway.sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                "(",
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                },
+                ")  "
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "throwaway.sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "sentence",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "sentence",
+              "children": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "id": "section",
+      "children": [
+        {
+          "type": "box",
+          "children": [
+            {
+              "type": "substitution",
+              "id": "paragraph",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "paragraph",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "paragraph",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "substitution",
+              "id": "paragraph",
+              "children": [
+
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "paragraph",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "paragraph",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "paragraph",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "paragraph",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "paragraph",
+                  "children": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "chance": "50",
+              "children": [
+                {
+                  "type": "substitution",
+                  "id": "paragraph",
+                  "children": [
+
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
